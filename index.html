@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">CocktailFinder.</div>
+        <div class="nav-links">
+          <a href="#" class="active">Search</a>
+          <a href="#" id="favorites-link">Favorites</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <div class="search-container">
+          <h1>Find Your Perfect Cocktail</h1>
+          <div class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Enter a single letter "
+              maxlength="1"
+            />
+            <button id="search-button">Search</button>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="results-section">
+        <h2 id="results-title" class="hidden">Search Results</h2>
+        <div id="loading" class="hidden">Searching for cocktails...</div>
+        <div id="results-grid" class="cocktail-grid"></div>
+        <div id="no-results" class="hidden">
+          No cocktails found. Try another letter.
+        </div>
+      </section>
+
+      <section id="favorites-section" class="favorites-section hidden">
+        <h2>Your Favorite Cocktails</h2>
+        <div id="favorites-grid" class="cocktail-grid"></div>
+        <div id="no-favorites" class="hidden">
+          You haven't added any favorites yet.
+        </div>
+      </section>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modal-content-container">
+          <div class="modal-header">
+            <h2 id="modal-title"></h2>
+            <button id="favorite-button">Add to Favorites</button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image-container">
+              <img id="modal-image" src="" alt="Cocktail" />
+            </div>
+            <div class="modal-details">
+              <h3>Ingredients</h3>
+              <ul id="modal-ingredients"></ul>
+              <h3>Instructions</h3>
+              <p id="modal-instructions"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Created with TheCocktailDB API</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
