@@ -50,8 +50,9 @@ Where `a` is replaced with the letter being searched.
 
 <img width="1316" height="621" alt="image" src="https://github.com/user-attachments/assets/b4024ad2-075e-424e-96f5-18fc4792a218" />
 
-<img width="680" height="395" alt="image" src="https://github.com/user-attachments/assets/fed9c29c-9bd7-47c3-a3ad-49d70dd3007e" />
+<img width="1352" height="671" alt="Screenshot 2025-10-25 113149" src="https://github.com/user-attachments/assets/4a491639-0348-486c-857d-ddbabf691c0a" />
 
 <img width="1005" height="478" alt="image" src="https://github.com/user-attachments/assets/b7fecdff-bff9-4ea7-af01-3ab1fe026574" />
 
 <img width="1325" height="635" alt="image" src="https://github.com/user-attachments/assets/eb32d40f-2940-496e-83bc-46f453e3b5a8" />
+
